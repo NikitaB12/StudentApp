@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CADE5ED26DF644A009A2590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE5EC26DF644A009A2590 /* AppDelegate.swift */; };
+		2CADE5EF26DF644A009A2590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE5EE26DF644A009A2590 /* SceneDelegate.swift */; };
+		2CADE5F126DF644A009A2590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE5F026DF644A009A2590 /* ViewController.swift */; };
+		2CADE5F426DF644A009A2590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CADE5F226DF644A009A2590 /* Main.storyboard */; };
+		2CADE5F726DF644A009A2590 /* CollapsibleTableview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE5F526DF644A009A2590 /* CollapsibleTableview.xcdatamodeld */; };
+		2CADE5F926DF644F009A2590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CADE5F826DF644F009A2590 /* Assets.xcassets */; };
+		2CADE5FC26DF644F009A2590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CADE5FA26DF644F009A2590 /* LaunchScreen.storyboard */; };
+		2CADE60726DF6450009A2590 /* CollapsibleTableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE60626DF6450009A2590 /* CollapsibleTableviewTests.swift */; };
+		2CADE61226DF6450009A2590 /* CollapsibleTableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE61126DF6450009A2590 /* CollapsibleTableviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CADE60326DF6450009A2590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CADE5E126DF644A009A2590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CADE5E826DF644A009A2590;
+			remoteInfo = CollapsibleTableview;
+		};
+		2CADE60E26DF6450009A2590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CADE5E126DF644A009A2590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CADE5E826DF644A009A2590;
+			remoteInfo = CollapsibleTableview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CADE5E926DF644A009A2590 /* CollapsibleTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CADE5EC26DF644A009A2590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CADE5EE26DF644A009A2590 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CADE5F026DF644A009A2590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CADE5F326DF644A009A2590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CADE5F626DF644A009A2590 /* CollapsibleTableview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollapsibleTableview.xcdatamodel; sourceTree = "<group>"; };
+		2CADE5F826DF644F009A2590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CADE5FB26DF644F009A2590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CADE5FD26DF644F009A2590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CADE60226DF6450009A2590 /* CollapsibleTableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleTableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CADE60626DF6450009A2590 /* CollapsibleTableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableviewTests.swift; sourceTree = "<group>"; };
+		2CADE60826DF6450009A2590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CADE60D26DF6450009A2590 /* CollapsibleTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CADE61126DF6450009A2590 /* CollapsibleTableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableviewUITests.swift; sourceTree = "<group>"; };
+		2CADE61326DF6450009A2590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CADE5E626DF644A009A2590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADE5FF26DF6450009A2590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADE60A26DF6450009A2590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CADE5E026DF644A009A2590 = {
+			isa = PBXGroup;
+			children = (
+				2CADE5EB26DF644A009A2590 /* CollapsibleTableview */,
+				2CADE60526DF6450009A2590 /* CollapsibleTableviewTests */,
+				2CADE61026DF6450009A2590 /* CollapsibleTableviewUITests */,
+				2CADE5EA26DF644A009A2590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CADE5EA26DF644A009A2590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CADE5E926DF644A009A2590 /* CollapsibleTableview.app */,
+				2CADE60226DF6450009A2590 /* CollapsibleTableviewTests.xctest */,
+				2CADE60D26DF6450009A2590 /* CollapsibleTableviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CADE5EB26DF644A009A2590 /* CollapsibleTableview */ = {
+			isa = PBXGroup;
+			children = (
+				2CADE5EC26DF644A009A2590 /* AppDelegate.swift */,
+				2CADE5EE26DF644A009A2590 /* SceneDelegate.swift */,
+				2CADE5F026DF644A009A2590 /* ViewController.swift */,
+				2CADE5F226DF644A009A2590 /* Main.storyboard */,
+				2CADE5F826DF644F009A2590 /* Assets.xcassets */,
+				2CADE5FA26DF644F009A2590 /* LaunchScreen.storyboard */,
+				2CADE5FD26DF644F009A2590 /* Info.plist */,
+				2CADE5F526DF644A009A2590 /* CollapsibleTableview.xcdatamodeld */,
+			);
+			path = CollapsibleTableview;
+			sourceTree = "<group>";
+		};
+		2CADE60526DF6450009A2590 /* CollapsibleTableviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CADE60626DF6450009A2590 /* CollapsibleTableviewTests.swift */,
+				2CADE60826DF6450009A2590 /* Info.plist */,
+			);
+			path = CollapsibleTableviewTests;
+			sourceTree = "<group>";
+		};
+		2CADE61026DF6450009A2590 /* CollapsibleTableviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CADE61126DF6450009A2590 /* CollapsibleTableviewUITests.swift */,
+				2CADE61326DF6450009A2590 /* Info.plist */,
+			);
+			path = CollapsibleTableviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CADE5E826DF644A009A2590 /* CollapsibleTableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CADE61626DF6450009A2590 /* Build configuration list for PBXNativeTarget "CollapsibleTableview" */;
+			buildPhases = (
+				2CADE5E526DF644A009A2590 /* Sources */,
+				2CADE5E626DF644A009A2590 /* Frameworks */,
+				2CADE5E726DF644A009A2590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleTableview;
+			productName = CollapsibleTableview;
+			productReference = 2CADE5E926DF644A009A2590 /* CollapsibleTableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CADE60126DF6450009A2590 /* CollapsibleTableviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CADE61926DF6450009A2590 /* Build configuration list for PBXNativeTarget "CollapsibleTableviewTests" */;
+			buildPhases = (
+				2CADE5FE26DF6450009A2590 /* Sources */,
+				2CADE5FF26DF6450009A2590 /* Frameworks */,
+				2CADE60026DF6450009A2590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CADE60426DF6450009A2590 /* PBXTargetDependency */,
+			);
+			name = CollapsibleTableviewTests;
+			productName = CollapsibleTableviewTests;
+			productReference = 2CADE60226DF6450009A2590 /* CollapsibleTableviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CADE60C26DF6450009A2590 /* CollapsibleTableviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CADE61C26DF6450009A2590 /* Build configuration list for PBXNativeTarget "CollapsibleTableviewUITests" */;
+			buildPhases = (
+				2CADE60926DF6450009A2590 /* Sources */,
+				2CADE60A26DF6450009A2590 /* Frameworks */,
+				2CADE60B26DF6450009A2590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CADE60F26DF6450009A2590 /* PBXTargetDependency */,
+			);
+			name = CollapsibleTableviewUITests;
+			productName = CollapsibleTableviewUITests;
+			productReference = 2CADE60D26DF6450009A2590 /* CollapsibleTableviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CADE5E126DF644A009A2590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2CADE5E826DF644A009A2590 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2CADE60126DF6450009A2590 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2CADE5E826DF644A009A2590;
+					};
+					2CADE60C26DF6450009A2590 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2CADE5E826DF644A009A2590;
+					};
+				};
+			};
+			buildConfigurationList = 2CADE5E426DF644A009A2590 /* Build configuration list for PBXProject "CollapsibleTableview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CADE5E026DF644A009A2590;
+			productRefGroup = 2CADE5EA26DF644A009A2590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CADE5E826DF644A009A2590 /* CollapsibleTableview */,
+				2CADE60126DF6450009A2590 /* CollapsibleTableviewTests */,
+				2CADE60C26DF6450009A2590 /* CollapsibleTableviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CADE5E726DF644A009A2590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADE5FC26DF644F009A2590 /* LaunchScreen.storyboard in Resources */,
+				2CADE5F926DF644F009A2590 /* Assets.xcassets in Resources */,
+				2CADE5F426DF644A009A2590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADE60026DF6450009A2590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADE60B26DF6450009A2590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CADE5E526DF644A009A2590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADE5F126DF644A009A2590 /* ViewController.swift in Sources */,
+				2CADE5ED26DF644A009A2590 /* AppDelegate.swift in Sources */,
+				2CADE5F726DF644A009A2590 /* CollapsibleTableview.xcdatamodeld in Sources */,
+				2CADE5EF26DF644A009A2590 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADE5FE26DF6450009A2590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADE60726DF6450009A2590 /* CollapsibleTableviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CADE60926DF6450009A2590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADE61226DF6450009A2590 /* CollapsibleTableviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CADE60426DF6450009A2590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CADE5E826DF644A009A2590 /* CollapsibleTableview */;
+			targetProxy = 2CADE60326DF6450009A2590 /* PBXContainerItemProxy */;
+		};
+		2CADE60F26DF6450009A2590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CADE5E826DF644A009A2590 /* CollapsibleTableview */;
+			targetProxy = 2CADE60E26DF6450009A2590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CADE5F226DF644A009A2590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CADE5F326DF644A009A2590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CADE5FA26DF644F009A2590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CADE5FB26DF644F009A2590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CADE61426DF6450009A2590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CADE61526DF6450009A2590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CADE61726DF6450009A2590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C6T26VR9;
+				INFOPLIST_FILE = CollapsibleTableview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollapsibleTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CADE61826DF6450009A2590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C6T26VR9;
+				INFOPLIST_FILE = CollapsibleTableview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollapsibleTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CADE61A26DF6450009A2590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C6T26VR9;
+				INFOPLIST_FILE = CollapsibleTableviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollapsibleTableviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsibleTableview.app/CollapsibleTableview";
+			};
+			name = Debug;
+		};
+		2CADE61B26DF6450009A2590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C6T26VR9;
+				INFOPLIST_FILE = CollapsibleTableviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollapsibleTableviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsibleTableview.app/CollapsibleTableview";
+			};
+			name = Release;
+		};
+		2CADE61D26DF6450009A2590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C6T26VR9;
+				INFOPLIST_FILE = CollapsibleTableviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollapsibleTableviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollapsibleTableview;
+			};
+			name = Debug;
+		};
+		2CADE61E26DF6450009A2590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59C6T26VR9;
+				INFOPLIST_FILE = CollapsibleTableviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CollapsibleTableviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollapsibleTableview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CADE5E426DF644A009A2590 /* Build configuration list for PBXProject "CollapsibleTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADE61426DF6450009A2590 /* Debug */,
+				2CADE61526DF6450009A2590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CADE61626DF6450009A2590 /* Build configuration list for PBXNativeTarget "CollapsibleTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADE61726DF6450009A2590 /* Debug */,
+				2CADE61826DF6450009A2590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CADE61926DF6450009A2590 /* Build configuration list for PBXNativeTarget "CollapsibleTableviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADE61A26DF6450009A2590 /* Debug */,
+				2CADE61B26DF6450009A2590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CADE61C26DF6450009A2590 /* Build configuration list for PBXNativeTarget "CollapsibleTableviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CADE61D26DF6450009A2590 /* Debug */,
+				2CADE61E26DF6450009A2590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CADE5F526DF644A009A2590 /* CollapsibleTableview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CADE5F626DF644A009A2590 /* CollapsibleTableview.xcdatamodel */,
+			);
+			currentVersion = 2CADE5F626DF644A009A2590 /* CollapsibleTableview.xcdatamodel */;
+			path = CollapsibleTableview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CADE5E126DF644A009A2590 /* Project object */;
+}
