@@ -16,6 +16,10 @@
 		2CADE5FC26DF644F009A2590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CADE5FA26DF644F009A2590 /* LaunchScreen.storyboard */; };
 		2CADE60726DF6450009A2590 /* CollapsibleTableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE60626DF6450009A2590 /* CollapsibleTableviewTests.swift */; };
 		2CADE61226DF6450009A2590 /* CollapsibleTableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE61126DF6450009A2590 /* CollapsibleTableviewUITests.swift */; };
+		2CADE62326DF6540009A2590 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE62126DF6540009A2590 /* CustomTableViewCell.swift */; };
+		2CADE62426DF6540009A2590 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CADE62226DF6540009A2590 /* CustomTableViewCell.xib */; };
+		2CADE62626DF65F3009A2590 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE62526DF65F3009A2590 /* Student.swift */; };
+		2CADE62826DF674D009A2590 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE62726DF674D009A2590 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		2CADE60D26DF6450009A2590 /* CollapsibleTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CADE61126DF6450009A2590 /* CollapsibleTableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableviewUITests.swift; sourceTree = "<group>"; };
 		2CADE61326DF6450009A2590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CADE62126DF6540009A2590 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2CADE62226DF6540009A2590 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		2CADE62526DF65F3009A2590 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		2CADE62726DF674D009A2590 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				2CADE5FA26DF644F009A2590 /* LaunchScreen.storyboard */,
 				2CADE5FD26DF644F009A2590 /* Info.plist */,
 				2CADE5F526DF644A009A2590 /* CollapsibleTableview.xcdatamodeld */,
+				2CADE62126DF6540009A2590 /* CustomTableViewCell.swift */,
+				2CADE62226DF6540009A2590 /* CustomTableViewCell.xib */,
+				2CADE62526DF65F3009A2590 /* Student.swift */,
+				2CADE62726DF674D009A2590 /* ViewModel.swift */,
 			);
 			path = CollapsibleTableview;
 			sourceTree = "<group>";
@@ -236,6 +248,7 @@
 			files = (
 				2CADE5FC26DF644F009A2590 /* LaunchScreen.storyboard in Resources */,
 				2CADE5F926DF644F009A2590 /* Assets.xcassets in Resources */,
+				2CADE62426DF6540009A2590 /* CustomTableViewCell.xib in Resources */,
 				2CADE5F426DF644A009A2590 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CADE5F126DF644A009A2590 /* ViewController.swift in Sources */,
+				2CADE62326DF6540009A2590 /* CustomTableViewCell.swift in Sources */,
 				2CADE5ED26DF644A009A2590 /* AppDelegate.swift in Sources */,
+				2CADE62626DF65F3009A2590 /* Student.swift in Sources */,
 				2CADE5F726DF644A009A2590 /* CollapsibleTableview.xcdatamodeld in Sources */,
 				2CADE5EF26DF644A009A2590 /* SceneDelegate.swift in Sources */,
+				2CADE62826DF674D009A2590 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
