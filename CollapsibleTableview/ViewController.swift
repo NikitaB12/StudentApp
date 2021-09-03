@@ -49,7 +49,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
             return getStudentsFromGrade(grade: .D).count
         
         default:
-            print("Default Switch Condition")
+            print("In Default Switch Condition")
             return 0
         }
 //        return students.count
